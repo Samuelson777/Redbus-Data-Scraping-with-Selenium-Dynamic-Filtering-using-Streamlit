@@ -36,6 +36,7 @@
 * import datetime
 * from streamlit_option_menu import option_menu
 * from selenium import webdriver
-![Image1](https://github.com/user-attachments/assets/54f4ab80-62d0-4e26-9c49-cc894005b40c)
-![Image2](https://github.com/user-attachments/assets/f2bd2026-e2ed-40f7-9019-4ff7ae36735f)
+![Image1](https://github.com/user-attachments/assets/48430d3b-4ac2-4930-8b09-420e135bdbe9)
+![Image2](https://github.com/user-attachments/assets/77cd00b8-bbc7-4913-bbb9-ef3486f8e55e)
+
 
