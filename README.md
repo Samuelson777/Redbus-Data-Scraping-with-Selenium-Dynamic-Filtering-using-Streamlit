@@ -33,9 +33,11 @@
 * psycopg2
 * import time
 * streamlit as slt
+* plotly
 * import datetime
 * from streamlit_option_menu import option_menu
 * from selenium import webdriver
+
 ![Image1](https://github.com/user-attachments/assets/954df5a6-dd9a-41f6-a311-a2013cf3635b)
 ![Image2](https://github.com/user-attachments/assets/6f12c447-e1b9-45f2-ab68-9845ef2b4c43)
 ![Image3](https://github.com/user-attachments/assets/63800543-5d66-4d94-a77f-42595959f69b)
