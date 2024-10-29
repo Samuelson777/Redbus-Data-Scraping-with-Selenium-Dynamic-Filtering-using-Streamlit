@@ -102,7 +102,7 @@ def show_home_page():
                     and the data was efficiently inserted into relevant tables for storage and retrieval.''')
     st.markdown("Streamlit: Developed an interactive web application using Streamlit, a user-friendly framework for data visualization and analysis.")
     st.subheader(":blue[Skill-take:]")
-    st.markdown("Selenium, Python, Pandas, Postgresql, psycopg2, Streamlit.")
+    st.markdown("Selenium, Python, Pandas, MySQL, Streamlit.")
     st.subheader(":blue[Developed-by:] SAMUELSON G")
 
 def show_states_and_routes():
