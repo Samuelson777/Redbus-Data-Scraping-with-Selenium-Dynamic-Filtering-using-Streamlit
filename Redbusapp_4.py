@@ -4,7 +4,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import plotly.express as px
 import psycopg2
-from mysql.connector import Error
+from psycopg2 import Error
 
 # 2. PAGE CONFIGURATION
 st.set_page_config(
