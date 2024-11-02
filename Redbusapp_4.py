@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 from streamlit_option_menu import option_menu
 import plotly.express as px
-import mysql.connector
+import psycopg2
 from mysql.connector import Error
 
 # 2. PAGE CONFIGURATION
@@ -28,17 +28,17 @@ def handle_exceptions(func):
 
 def init_connection():
     try:
-        connection = mysql.connector.connect(
-            host="redbusdetails.c5mc0y22khp0.ap-south-1.rds.amazonaws.com",
-            database="red_bus_details",
-            user="root",
-            password="samguna10"
+        connection = psycopg2.connect(
+            host="aws-0-ap-south-1.pooler.supabase.com",
+            database="Redbusdb",
+            user="postgres.iwqhizifnkwkrpmcypgk",
+            password="Gsam100@#$%"
         )
         if connection.is_connected():
             st.success("Successfully connected to the database!")
             return connection
     except Error as e:
-        st.error(f"Error connecting to MySQL database: {e}")
+        st.error(f"Error connecting to PostgreSQL database: {e}")
         return None
 
 def load_route_data():
@@ -98,7 +98,7 @@ def show_home_page():
     st.markdown("Selenium: Selenium is a tool used for automating web browsers. It is commonly used for web scraping, which involves extracting data from websites. Selenium allows you to simulate human interactions with a web page, such as clicking buttons, filling out forms, and navigating through pages, to collect the desired data...")
     st.markdown('''Pandas: Use the powerful Pandas library to transform the dataset from CSV format into a structured dataframe.
                     Pandas helps data manipulation, cleaning, and preprocessing, ensuring that data was ready for analysis.''')
-    st.markdown('''MySQL: With help of SQL to establish a connection to a SQL database, enabling seamless integration of the transformed dataset
+    st.markdown('''PostgreSQL: With help of SQL to establish a connection to a SQL database, enabling seamless integration of the transformed dataset
                     and the data was efficiently inserted into relevant tables for storage and retrieval.''')
     st.markdown("Streamlit: Developed an interactive web application using Streamlit, a user-friendly framework for data visualization and analysis.")
     st.subheader(":blue[Skill-take:]")
