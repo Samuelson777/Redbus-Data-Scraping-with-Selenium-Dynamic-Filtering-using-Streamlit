@@ -43,6 +43,6 @@
 
 ## Redbus-Data-Scraping-with-Selenium-Dynamic-Filtering-using-Streamlit App Link: https://wuazfmtjvbhhbzv77wgiwq.streamlit.app/
 
-
-
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Samuelson777/Redbus-Data-Scraping-with-Selenium-Dynamic-Filtering-using-Streamlit/blob/main/LICENSE) file for details.
 
